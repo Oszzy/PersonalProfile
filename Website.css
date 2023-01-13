@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0;
+  font-weight: none;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.8px;
+  color: black;
+  background-color: #FAF9F6;
+}
+
+
+
+.Button1 {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.5px;
+}
+
+a:hover {
+  color: #800000 !important;
+  opacity: 0.9;
+  transition: 0.15secs;
+}
+
+a:active {
+  opacity: 0.5;
+}
+
+
+.top {
+  justify-content: center;
+}
+
+li,
+span,
+a {
+  font-style: 14px;
+  color: black !important;
+  text-decoration: none;
+  margin-top: 10px;
+  letter-spacing: 0.8px;
+  opacity: 1;
+
+}
+
+
+
+
+.Navbar {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: transparent;
+  contain: content;
+
+
+
+
+}
+
+.top {
+  width: 300px;
+  height: 80px;
+
+  margin-left: 100px;
+  position: fixed;
+
+
+}
+
+.nav {
+  list-style: none !important;
+}
+
+.nav li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: #666666;
+
+}
+
+.list-icons li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-right: 10px;
+  color: #666666;
+}
+
+.Img1 {
+  width: 100%;
+
+  contain: none;
+  z-index: 0;
+  contain: content;
+}
+
+.mainimg {
+  width: 100%;
+
+}
+
+.Bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+  letter-spacing: 0.8px;
+  font-weight: none;
+  flex-wrap: wrap;
+  background-color: #FAF9F6 !important;
+  ;
+  width: 100%;
+
+  contain: content
+}
+
+.BottomLeft {
+  position: relative;
+  contain: content;
+  padding-right: 70px;
+  width: 700px;
+  max-width: 700px;
+}
+
+.BottomRight {
+  position: relative;
+  width: 200px;
+  vertical-align: middle;
+
+}
+
+
+
+.media {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  justify-content: space-around;
+}
+
+.fa-icon {
+  list-style: none;
+}
+
+.Last1 {
+  background-color: #FAF9F6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 8PX;
+
+}
+
+.Last2 {
+  margin-bottom: 10PX;
+  background-color: #FAF9F6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.FM {
+
+  width: 200px;
+  height: 50px;
+}
+
+.BottomLeft div p li {
+  font-family: Roboto;
+  font-size: 16px;
+  color: black;
+
+}

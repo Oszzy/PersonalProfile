@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.8px;
+  background-color: #FAF9F6;
+
+}
+
+a:hover {
+  color: #800000 !important;
+  opacity: 0.9;
+  transition: 0.15secs;
+}
+
+a:active {
+  opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  contain: content;
+  margin-right: 200PX;
+  margin-left: 200PX;
+  background-color: #FAF9F6;
+
+}
+
+
+
+.Button1 {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.5px;
+}
+
+li,
+span,
+a {
+  font-style: 14px;
+  color: black !important;
+  text-decoration: none;
+  margin-top: 10px;
+  letter-spacing: 0.8px;
+  opacity: 1;
+
+}
+
+
+.Navbar {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: transparent !important;
+  contain: content;
+
+
+}
+
+.top {
+  width: 300px;
+  height: 80px;
+
+  margin-left: 100px;
+  position: fixed;
+  justify-content: center;
+
+}
+
+.nav {
+  list-style: none !important;
+}
+
+.nav li {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: #666666;
+
+}
+
+
+
+.Last1 {
+  background-color: #FAF9F6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 8PX;
+
+}
+
+.Last2 {
+  margin-bottom: 10PX;
+  background-color: #FAF9F6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.LB {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  margin-top: 100px;
+
+
+}
+
+.FirstB {
+
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.date {
+  justify-content: end;
+}
+
+.Blog {
+  margin-top: 250px;
+}
