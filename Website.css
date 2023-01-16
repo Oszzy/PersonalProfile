@@ -33,6 +33,7 @@ body {
   transform: translate(-0.25rem, -0.25rem);
   background: var(--hover-bg);
   box-shadow: 0.25rem 0.25rem var(--bg);
+  cursor: pointer;
 }
 
 .button:active {
