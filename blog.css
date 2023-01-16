@@ -23,6 +23,9 @@ a:hover {
 a:active {
   opacity: 0.5;
 }
+.B1 {
+  color: #0012b3 !important;
+}
 
 .container {
   display: flex;
