@@ -13,7 +13,7 @@ body {
   letter-spacing: 0.8px;
   color: black;
   background-color: #FAF9F6;
-  min-width: 700px !important;
+  min-width: 500px !important;
 }
 
 .button {
