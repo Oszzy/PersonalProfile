@@ -35,6 +35,7 @@ a:active {
   margin-right: 200PX;
   margin-left: 200PX;
   background-color: #FAF9F6;
+  min-width: 700px;
 
 }
 
