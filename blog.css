@@ -25,6 +25,7 @@ a:active {
 }
 .B1 {
   color: #0012b3 !important;
+  margin-bottom: 0px !important;
 }
 
 .container {
