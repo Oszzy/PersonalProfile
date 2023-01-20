@@ -11,7 +11,7 @@ body {
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
   background-color: #FAF9F6;
-  min-width: 700px;
+  min-width: 1000px;
 }
 
 a:hover {
@@ -35,7 +35,7 @@ a:active {
   margin-right: 200PX;
   margin-left: 200PX;
   background-color: #FAF9F6;
-  min-width: 700px;
+  min-width: 1000px;
 
 }
 
