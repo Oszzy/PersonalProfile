@@ -149,7 +149,9 @@ a {
 
 
 }
-
+.date {
+  width: 300px;
+}
 .FirstB {
 
   display: flex;
