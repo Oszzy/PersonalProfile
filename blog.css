@@ -151,6 +151,7 @@ a {
 }
 .date {
   width: 300px;
+  justify-content: end;
 }
 .FirstB {
 
