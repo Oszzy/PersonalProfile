@@ -121,18 +121,15 @@ a {
   color: #666666;
 }
 
-.Img1 {
-  width: 100%;
+.mainimg {
+  width: 800px;
 
   contain: none;
   z-index: 0;
   contain: content;
 }
 
-.mainimg {
-  width: 100%;
 
-}
 
 .Bottom {
   display: flex;
