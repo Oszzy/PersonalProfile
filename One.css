@@ -1,4 +1,4 @@
-<style>* {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -157,5 +157,3 @@ a:active {
   transform: translate(0);
   box-shadow: none;
 }
-
-</style>
