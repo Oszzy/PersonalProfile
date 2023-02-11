@@ -1,35 +1,99 @@
+<style>* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
-}
 
 body {
-  margin: 0;
-  font-weight: none;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
- background-color: #FAF9F6;
-  min-width: 100px !important;
-  max-width: 1500px !important;
+
 }
 
-.nav {
-  list-style: none !important;
+header {
+  background-color: white !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-li,
-span,
-a {
-  font-style: 14px;
-  color: black !important;
+h1 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  ;
+}
+
+.Navbar {
+  margin-top: 30px;
+}
+
+img {
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  margin-right: 20px;
   text-decoration: none;
-  margin-top: 10px;
-  letter-spacing: 0.8px;
-  opacity: 1;
+}
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  width: 60%;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.KOSM {
+  width: 20%;
+  min-width: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+.Last1 {
+  background-color: #white !important;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 8PX;
+
+}
+
+.Last2 {
+  margin-bottom: 10PX;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .nav li {
@@ -47,6 +111,10 @@ a {
   margin: 0px;
   padding: 0px;
   opacity: 0.5px;
+}
+
+.Somalia {
+  margin-bottom: 20px;
 }
 
 a:hover {
@@ -90,62 +158,4 @@ a:active {
   box-shadow: none;
 }
 
-p {
-  font-weight: 100;
-}
-
-.Navbar {
-  background-color: lightblue;
-  width: 700px;
-  position: fixed;
-  z-index: 1;
-  background-color: transparent;
-  contain: content;
-  top: 0px;
-  left: 0px;
-  
-}
-
-.Blog {
-  margin-top: 200px;
-}
-
-.Contains {
-  margin-left: 366.5px !important;
-  margin-left: 366.5px;
-
-  contain: content;
-  min-width: 900px !important;
-  max-width: 1200px !important;
-}
-
-img {
-
-  width: 700px;
-
-}
-
-.image {
-  justify-content: center;
-  align-items: center;
-}
-
-.Last1 {
-
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 8PX;
-
-}
-
-.Last2 {
-  margin-bottom: 10PX;
-
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+</style>
