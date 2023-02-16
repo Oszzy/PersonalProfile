@@ -10,6 +10,9 @@
   font-size: 62.5%;
 }
 
+body {
+  background-color: #FAF9F6;
+}
 
 .Button1 {
   box-sizing: border-box;
