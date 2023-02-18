@@ -141,7 +141,7 @@ h2 {
 .Bottom {
   display: flex;
   justify-content: center;
-  margin-top: 0px;
+
   letter-spacing: 0.8px;
   font-weight: none;
   flex-wrap: wrap;
@@ -154,11 +154,12 @@ h2 {
 }
 
 .BottomLeft {
-  position: relative;
+
   contain: content;
   padding-right: 70px;
   width: 700px;
   max-width: 700px;
+  margin-right: 90px;
 }
 
 .BottomRight {
@@ -361,14 +362,14 @@ a:active {
 }
 
 .navbar {
-
-  position: fixed;
+  margin-top: 10px;
+  position: relative;
   width: 350px;
   min-width: 350px;
   vertical-align: middle;
   align-items: center;
   justify-content: center;
-  margin-left: 500px;
+  margin-left: 300px;
   background: white;
   color: #000;
   top: 0px;
@@ -376,7 +377,7 @@ a:active {
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
-
+  position: fixed;
 
 }
 
