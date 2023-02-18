@@ -7,15 +7,42 @@ html {
 }
 
 body {
-  
+  margin: 0;
   font-weight: none;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: black;
-  background-color: #FAF9F6;
-  min-width: 500px !important;
+  background: #eee;
+
+  min-width: 700px !important;
+
+}
+
+.top {
+  justify-content: center;
+}
+
+li,
+span,
+a {
+  font-style: 14px;
+  color: black !important;
+  text-decoration: none;
+
+  letter-spacing: 0.8px;
+  opacity: 1;
+
+}
+
+
+
+.top {
+  width: 300px;
+  height: 80px;
+
+  margin-left: 100px;
+  position: fixed;
+
+
 }
 
 .button {
@@ -43,78 +70,16 @@ body {
   box-shadow: none;
 }
 
-.Button1 {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  opacity: 0.5px;
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
 }
 
-a:hover {
-  color: #0012b3 !important;
-  opacity: 0.9;
-  transition: 0.15secs;
+.container {
+  width: 70%;
+  margin: auto;
 }
 
-a:active {
-  opacity: 0.5;
-}
-
-
-.top {
-  justify-content: center;
-}
-
-li,
-span,
-a {
-  font-style: 14px;
-  color: black !important;
-  text-decoration: none;
-  margin-top: 10px;
-  letter-spacing: 0.8px;
-  opacity: 1;
-
-}
-
-
-
-
-.Navbar {
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  background-color: transparent;
-  contain: content;
-
-
-
-
-}
-
-.top {
-  width: 300px;
-  height: 80px;
-
-  margin-left: 100px;
-  position: fixed;
-
-
-}
-
-.nav {
-  list-style: none !important;
-}
-
-.nav li {
-  display: inline-block;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 10px;
-  color: #666666;
-
-}
 
 .list-icons li {
   display: inline-block;
@@ -123,29 +88,66 @@ a {
   color: #666666;
 }
 
-.Img1 {
-  width: 100%;
+.TopHalf {
+  width: 1500px;
+  margin-top: 100px;
 
-  contain: none;
+  display: flex;
+  flex-direction: row;
   z-index: 0;
   contain: content;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+
+}
+
+.left {
+  margin-top: 200px;
+  margin-right: 93px;
+  width: 600px;
+  height: 200px;
+  margin-left: -100px;
+
+
+}
+
+.me {
+  contain: content;
+  width: 600px;
+
+
+}
+
+.text1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 15px
+}
+
+.ponits1 {
+  margin-top: 15px;
+  #
 }
 
 .mainimg {
-  width: 100%;
+  width: 500px;
 
 }
-
 
 .Bottom {
   display: flex;
   justify-content: center;
-  margin-top: -90px;
+  margin-top: 0px;
   letter-spacing: 0.8px;
   font-weight: none;
   flex-wrap: wrap;
-  background-color: #FAF9F6 !important;
-  ;
+  background-color: white !important;
+  border-radius: 1px;
+  border-style: outset;
   width: 100%;
 
   contain: content
@@ -161,7 +163,10 @@ a {
 
 .BottomRight {
   position: relative;
-  width: 200px;
+
+  vertical-align: middle;
+
+  justify-content: center;
   vertical-align: middle;
 
 }
@@ -185,23 +190,23 @@ a {
 }
 
 .Last1 {
-  background-color: #FAF9F6;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 8PX;
-
+  background: #eee;
 }
 
 .Last2 {
   margin-bottom: 10PX;
-  background-color: #FAF9F6;
+  background: #eee;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .FM {
@@ -215,4 +220,214 @@ a {
   font-size: 16px;
   color: black;
 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.typing.animate {
+  width: 21ch;
+  border-right: 0.1em solid black;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  animation: type 2.5s steps(20), writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.typing.animate::before {
+  content: "Hello, I'm Ozman";
+  animation: type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 21ch;
+  }
+}
+
+@keyframes type2 {
+  from {
+    width: 16ch;
+    content: "Hello, I'm Oman. "
+  }
+
+  to {
+    width: 20ch;
+    content: "Hello, I'm Osman. "
+  }
+}
+
+@keyframes type3 {
+  from {
+    width: 20ch;
+    content: "Hello, I'm Osman. Welcome to my Website!"
+  }
+
+  to {
+    width: 42ch;
+    content: "Hello, I'm Osman. Welcome to my Website!"
+  }
+}
+
+@keyframes writer {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes delete {
+  from {
+    width: 21ch;
+  }
+
+  to {
+    width: 16ch;
+  }
+}
+
+.Button1 {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.5px;
+}
+
+.Somalia {
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: #0012b3 !important;
+  opacity: 0.9;
+  transition: 0.15secs;
+}
+
+a:active {
+  opacity: 0.5;
+}
+
+
+.top {
+  justify-content: center;
+}
+
+
+.button {
+  --bg: #000;
+  --hover-bg: #0012b3;
+  --hover-text: #000;
+  color: #fff !important;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
+
+.button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+
+  position: fixed;
+  width: 350px;
+  min-width: 350px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  margin-left: 500px;
+  background: white;
+  color: #000;
+  top: 0px;
+  z-index: 100;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+
+
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.8px;
+
+
+}
+
+header {
+  background-color: white !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  ;
+}
+
+.Navbar {
+  margin-top: 30px;
+}
+
+img {
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
 }
