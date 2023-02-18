@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #FAF9F6;
+  background: #eee;
 }
 
 .Button1 {
@@ -318,7 +318,7 @@ footer {
 }
 
 .Last1 {
-  background-color: #white !important;
+  background: #eee;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -330,7 +330,7 @@ footer {
 
 .Last2 {
   margin-bottom: 10PX;
- background-color: #FAF9F6;
+ background: #eee;
   width: 100%;
   display: flex;
   flex-direction: row;
