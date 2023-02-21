@@ -11,13 +11,11 @@ body {
   font-weight: none;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
-  background: #eee;
+  background-color: #eee;
   contain: content;
   width: 100%;
   height: 100%;
-  min-width: 1800px;
-  max-height: 1500px;
-
+  min-width: 100%;
 
 }
 
@@ -90,32 +88,32 @@ a {
 }
 
 .TopHalf {
-  width: 100%;
-  margin-top: 100px;
-
+  margin-top: 150px;
   display: flex;
   flex-direction: row;
-  z-index: 0;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  height: 1200px;
   contain: content;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
+  width: 100%;
+}
 
-
+.TH {
+  width: 1900px;
+  height: 700px;
+  height: 100%;
+  contain: content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 
 .typing animate {
   margin-top: 400px;
-}
-
-
-.me {
-  contain: content;
-  width: 600px;
-  margin-right: 100px;
-
-
 }
 
 .text1 {
@@ -131,46 +129,130 @@ h2 {
 
 }
 
-.mainimg {
-  width: 600px;
+.me {
+  contain: content;
+  width: 500px;
+  margin-right: 400px;
+}
 
+.mainimg {
+  width: 500px;
+  --s: 10px;
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid #000;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
+}
+
+
+.left {
+  contain: content;
+  margin-right: 40px;
+  height: 600px;
+  padding-top: 300px;
+}
+
+.tme {
+  height: 600px;
+  padding-top: 30px;
+  width: 500px;
 }
 
 .Bottom {
   display: flex;
   justify-content: center;
-
   letter-spacing: 0.8px;
   font-weight: none;
   flex-wrap: wrap;
-  background-color: white !important;
   border-radius: 1px;
-  border-style: outset;
   width: 100%;
+  background-color: #eee;
 
   contain: content
 }
 
 .BottomLeft {
-
+  background-color: transparent;
   contain: content;
-  padding-right: 70px;
   width: 700px;
   max-width: 700px;
   margin-right: 90px;
+  border-width: 10px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.text1 {
+  text-align: justify
 }
 
 .BottomRight {
   position: relative;
-
   vertical-align: middle;
-
   justify-content: center;
   vertical-align: middle;
+  background-color: transparent;
+  border-width: 10px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  height: 200px;
 
 }
 
+:root {
+  --radius: 12px;
+  --primary-color: #009d71;
+  --secondary-color: #4d1c61;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.crds {
+  padding-top: 40px;
+  margin-left: 40px;
+  width: 500px;
+  height: 200px;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  contain: content;
+}
+
+.card {
+  padding-top: 40px;
+  margin-bottom: 10px;
+  width: 700px;
+  height: 630px;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.border-gradient {
+  position: relative;
+  border-radius: var(--radius);
+}
+
+.border-gradient:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: var(--radius);
+  border-radius: var(--radius) var(--radius) 0 0;
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
 
 .media {
   display: flex;
@@ -196,22 +278,25 @@ h2 {
   margin-top: 50px;
   margin-bottom: 8PX;
   background: #eee;
+
 }
 
 .Last2 {
-  margin-bottom: 10PX;
-  background: #eee;
+
+  padding-bottom: 20px;
+  background-color: #eee;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 
+
 }
 
 .FM {
-
-  width: 200px;
-  height: 50px;
+  padding-left: 30%;
+  width: 100%;
+  height: 70px;
 }
 
 .BottomLeft div p li {
@@ -230,12 +315,12 @@ h2 {
 
 
 .typing.animate {
-  width: 21ch;
+  width: 300px;
   border-right: 0.1em solid black;
   font-family: 'Inter', sans-serif;
   font-size: 30px;
-  font-weight: 700;
-  animation: type 2.5s steps(20), writer 1s infinite alternate, delete 0.5s steps(5) 2.5s, type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
+  font-weight: 800;
+  animation: type 3.5s steps(20), writer 1s infinite alternate, delete 0.6s steps(7) 3.5s, type2 1s steps(4) 3s forwards, type3 3s steps(10, end) 6s forwards;
   overflow: hidden;
   white-space: nowrap;
 
@@ -434,18 +519,4 @@ nav li a {
 
 .contain {
   width: 100%;
-
-
-
-
-}
-
-.left {
-
-  padding-top: 200px;
-  padding-left: 100px;
-  font-size: 30px !important;
-  margin-left: -30px;
-  padding-bottom: 200px;
-
 }
