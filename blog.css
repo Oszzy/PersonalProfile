@@ -20,7 +20,7 @@ body {
   contain: content;
   margin-right: 200PX;
   margin-left: 200PX;
-  background: #eee;
+ background-color: transparent !important;
   min-width: 800px;
 
 }
@@ -42,7 +42,7 @@ body {
 
 
 .Last1 {
-  background: #eee;
+ background-color: transparent !important;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -54,7 +54,7 @@ body {
 
 .Last2 {
   margin-bottom: 10PX;
-  background: #eee;
+  background-color: transparent !important;
   width: 100%;
   display: flex;
   flex-direction: row;
