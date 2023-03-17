@@ -6,80 +6,138 @@ html {
   -webkit-text-size-adjust: 100%
 }
 
+.contain {
+  margin-top: 30px;
+
+  margin-left: 280px;
+  width: 100%;
+  contain: content;
+  padding-right: 400px;
+}
+
 body {
   margin: 0;
   font-weight: none;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
-  background: #FAF9F6;
-  contain: content;
+
   width: 100%;
   height: 100%;
-  min-width: 100%;
+  min-width: 1200px;
+
+  letter-spacing: 0.9px;
+}
+
+.Sidebar {
+  background-color: white;
+  width: 175px;
+
+  height: 1000px;
+  position: fixed;
+  left: 0px;
+  top: 0;
+  contain: content;
+  z-index: 99;
+  border-style: solid;
+  border-radius: 4%;
+  border-width: 1px;
+  border-color: white;
+}
+
+.K {
+  width: 140px;
+  height: 140px;
+  contain: content;
 
 }
 
-.top {
-  justify-content: center;
+.Ime {
+  width: 140px;
+  border-radius: 50%;
+}
+
+.HW {
+  text-replace: auto;
+}
+
+.ImgBoarder {
+  width: 100%;
+  height: 150px;
+  padding-left: 5%;
+  margin-top: 30px;
+}
+
+
+.HRB {
+  height: 300px;
+  width: 100%;
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+.n1 {
+  color: #00195b;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.n2,
+.n3 {
+  font-weight: 200;
+  color: #00195b;
+}
+
+.Sidebarlink {
+  padding-top: 10px;
+
+  font-size: 22px;
+  font-weight: 600;
+}
+
+li,
+a {
+  color: #000;
+
+}
+
+a:hover {
+  opacity: 0.8;
+  color: #b803ff;
+}
+
+a:active {
+  opacity: 0.6;
 }
 
 li,
 span,
 a {
-  font-style: 14px;
-  color: black !important;
+
+
   text-decoration: none;
 
-  letter-spacing: 0.8px;
-  opacity: 1;
 
 }
 
+.Top {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: #0e377aec;
+}
 
-
-.top {
-  width: 300px;
-  height: 80px;
-
-  margin-left: 100px;
-  position: fixed;
-
+.HW {
+  color: white;
+  padding-left: 200px;
 
 }
 
-.button {
-  --bg: #000;
-  --hover-bg: #0012b3;
-  --hover-text: #000;
-  color: #fff !important;
-  border: 1px solid var(--bg);
-  border-radius: 4px;
-  padding: 0.8em 2em;
-  background: var(--bg);
-  transition: 0.2s;
-  margin-left: 5px;
-
+.tme {
+  padding-left: 170px;
 }
-
-.button:hover {
-  color: var(--hover-text);
-  transform: translate(-0.25rem, -0.25rem);
-  background: var(--hover-bg);
-  box-shadow: 0.25rem 0.25rem var(--bg);
-  cursor: pointer;
-}
-
-.button:active {
-  transform: translate(0);
-  box-shadow: none;
-}
-
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
-
-
 
 
 .list-icons li {
@@ -87,51 +145,6 @@ a {
   padding-top: 0px;
   padding-right: 10px;
   color: #666666;
-}
-
-.TopHalf {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  vertical-align: middle;
-  justify-content: center;
-  height: 900px;
-  contain: content;
-  width: 100%;
-}
-
-.TH {
-  width: 1900px;
-  height: 600px;
-  contain: content;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  justify-content: space-evenly;
-
-}
-
-.typing animate {
-  margin-top: 400px;
-}
-
-.text1 {
-  margin-bottom: 20px;
-}
-
-h2 {
-  margin-bottom: 15px
-}
-
-.ponits1 {
-  margin-top: 15px;
-
-}
-
-.me {
-  width: 400px;
-
 }
 
 .mainimg {
@@ -152,11 +165,7 @@ h2 {
 
 }
 
-.tme {
-  height: 500px;
-  padding-top: 30px;
-  width: 500px;
-}
+
 
 .Bottom {
   display: flex;
@@ -164,16 +173,17 @@ h2 {
   letter-spacing: 0.8px;
   font-weight: none;
   flex-wrap: wrap;
-  border-radius: 1px;
-  width: 100%;
-  background-color: transparent !important;
 
-  contain: content
+  width: 100%;
+  contain: content;
+
+  padding-top: 10px;
 }
 
 .BottomLeft {
-  background-color: transparent;
+
   contain: content;
+  height: 100%;
   width: 700px;
   max-width: 700px;
   margin-right: 90px;
@@ -184,6 +194,18 @@ h2 {
   padding-bottom: 20px;
 
 
+}
+
+.Hi {
+  margin-bottom: 10px;
+}
+
+.Welcome {
+  margin-bottom: 20px;
+}
+
+.Currently {
+  margin-top: 10px;
 }
 
 .text1 {
@@ -212,11 +234,7 @@ h2 {
   --secondary-color: #4d1c61;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .crds {
   margin-bottom: 20px;
@@ -272,25 +290,23 @@ h2 {
 }
 
 .Last1 {
+  margin-top: 20px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 8PX;
-  background: transparent;
+  background-color: white;
+
 
 }
 
 .Last2 {
-
-  padding-bottom: 20px;
-  background-color: transparent !important;
-  ;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: white;
+
 
 
 }
@@ -312,198 +328,4 @@ h2 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-
-
-.typing.animate {
-  margin-top: 40px;
-  width: 300px;
-  border-right: 0.1em solid black;
-  font-family: 'Inter', sans-serif;
-  font-size: 40px;
-  font-weight: 900;
-  animation: type 3.5s steps(20), writer 1s infinite alternate, delete 0.6s steps(7) 3.5s, type2 1s steps(4) 3s forwards, type3 3s steps(10, end) 6s forwards;
-  overflow: hidden;
-  white-space: nowrap;
-
-}
-
-.typing.animate::before {
-  content: "Hello, I'm Ozman";
-  animation: type2 1s steps(4) 3s forwards, type3 3s steps(22, end) 6s forwards;
-}
-
-@keyframes type {
-  from {
-    width: 0;
-  }
-
-  to {
-    width: 21ch;
-  }
-}
-
-@keyframes type2 {
-  from {
-    width: 16ch;
-    content: "Hello, I'm Oman. "
-  }
-
-  to {
-    width: 20ch;
-    content: "Hello, I'm Osman. "
-  }
-}
-
-@keyframes type3 {
-  from {
-    width: 20ch;
-    content: "Hello, I'm Osman. Welcome to my Website!"
-  }
-
-  to {
-    width: 42ch;
-    content: "Hello, I'm Osman. Welcome to my Website!"
-  }
-}
-
-@keyframes writer {
-  50% {
-    border-color: transparent;
-  }
-}
-
-@keyframes delete {
-  from {
-    width: 21ch;
-  }
-
-  to {
-    width: 16ch;
-  }
-}
-
-.Button1 {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  opacity: 0.5px;
-}
-
-.Somalia {
-  margin-bottom: 20px;
-}
-
-a:hover {
-  color: #0012b3 !important;
-  opacity: 0.9;
-  transition: 0.15secs;
-}
-
-a:active {
-  opacity: 0.5;
-}
-
-
-.top {
-  justify-content: center;
-}
-
-
-
-
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
-
-.container {
-  max-width: 1200px;
-  width: 90%;
-  margin: auto;
-}
-
-.navbar {
-  position: fixed !important;
-  width: 100%;
-  min-width: 100%;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  color: #000;
-  top: 0px;
-  z-index: 100;
-  position: fixed;
-  background-color: transparent;
-  contain: content;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  align-items: center;
-  width: 360px;
-  contain: content;
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 1px;
-
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
-
-body {
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.8px;
-
-
-}
-
-header {
-  background-color: white !important;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-
-}
-
-h1 {
-  margin-bottom: 20px;
-  margin-top: 0px;
-  ;
-}
-
-.Navbar {
-  margin-top: 30px;
-}
-
-img {
-  width: 40%;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav li a {
-  color: black;
-  margin-right: 20px;
-  text-decoration: none;
-}
-
-.contain {
-  width: 100%;
 }
