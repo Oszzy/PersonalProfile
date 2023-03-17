@@ -39,8 +39,7 @@ body {
   contain: content;
   z-index: 99;
   border-style: solid;
-  border-radius: 4%;
-  border-width: 1px;
+
   border-color: white;
 }
 
