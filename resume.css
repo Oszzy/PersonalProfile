@@ -10,7 +10,7 @@ body {
   margin: 0;
   background-color: #0e377aec;
   color: #fff;
-  font-size: 96px;
+
 
   font-family: 'Inter', sans-serif;
 
@@ -18,6 +18,10 @@ body {
 
 .comming {
   animation: glitch 1s linear infinite;
+  margin-left: 1000px;
+
+  min-width: 1000px;
+  font-size: 36px;
 }
 
 @keyframes glitch {
