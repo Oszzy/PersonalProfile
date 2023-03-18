@@ -18,6 +18,18 @@ body {
   letter-spacing: 0.9px;
 }
 
+.Everything {
+  width: 100%;
+
+  contain: content;
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  width: 1700px;
+  height: 100%;
+}
 
 .work {
   margin-bottom: 90px;
@@ -74,8 +86,6 @@ li {
   margin-top: 30px;
   width: 1200px;
 
-
-
 }
 
 .E {
@@ -90,7 +100,7 @@ li {
   color: white;
   justify-content: center;
   align-items: center;
-  font-size: large;
+
   margin-top: 20px;
 }
 
@@ -131,7 +141,7 @@ li {
 
 .Hull {
   width: 210px;
-  margin-left: 10px;
+  margin-left: 20px;
 
 
 }
@@ -254,4 +264,8 @@ a {
 
 
 
+}
+
+.Download {
+  margin-bottom: 70px;
 }
