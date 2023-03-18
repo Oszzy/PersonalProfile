@@ -24,7 +24,7 @@ body {
   width: 100%;
   margin-left: 200px;
   display: flex;
-
+  padding-top: 70px;
   flex-wrap: wrap;
 
   text-align: justify;
@@ -32,8 +32,9 @@ body {
 }
 
 .Achievement {
+  display: inline-block;
 
-  width: 75%;
+  width: 800px;
   font-size: 18px;
 }
 
@@ -47,6 +48,7 @@ li {
   width: 100%;
   margin-bottom: 50px;
   justify-content: space-between;
+  font-weight: 600;
 }
 
 .rest {
