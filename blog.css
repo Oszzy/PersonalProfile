@@ -12,7 +12,7 @@ body {
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
 
-  min-width: 800px;
+  min-width: 1300px;
 }
 
 .contains {
@@ -26,6 +26,18 @@ body {
 
 }
 
+.Everything {
+  width: 100%;
+
+  contain: content;
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  width: 1700px;
+  height: 100%;
+}
 
 .top {
   width: 300px;
