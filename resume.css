@@ -161,6 +161,7 @@ a {
   color: #0012b3;
 }
 
+
 .Sidebar {
   background-color: white;
   width: 175px;
@@ -171,8 +172,26 @@ a {
   top: 0;
   contain: content;
   z-index: 99;
-  border-style: solid;
-  border-color: white;
+
+
+  min-width: 130px;
+}
+
+.SidebarContainer {
+  height: 100%;
+
+}
+
+.HRB {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 130px;
+  margin-top: 8px;
+  width: 100%;
+  padding-left: 30px;
+
+
 }
 
 .K {
@@ -196,12 +215,6 @@ a {
 }
 
 
-.HRB {
-  height: 300px;
-  width: 100%;
-  padding-left: 30px;
-  margin-top: 0px;
-}
 
 .n2 {
   color: #00195b;
@@ -231,7 +244,7 @@ a:hover {
 }
 
 a:active {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 li,
