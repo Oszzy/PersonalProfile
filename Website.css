@@ -31,17 +31,33 @@ body {
 .Sidebar {
   background-color: white;
   width: 175px;
-
+  font-family: 'Inter', sans-serif;
   height: 1000px;
   position: fixed;
   left: 0px;
   top: 0;
   contain: content;
   z-index: 99;
-  border-style: solid;
-  border-radius: 4%;
-  border-width: 1px;
-  border-color: white;
+
+
+  min-width: 130px;
+}
+
+.SidebarContainer {
+  height: 100%;
+
+}
+
+.HRB {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 130px;
+  margin-top: 8px;
+  width: 100%;
+  padding-left: 30px;
+
+
 }
 
 .K {
@@ -56,9 +72,6 @@ body {
   border-radius: 50%;
 }
 
-.HW {
-  text-replace: auto;
-}
 
 .ImgBoarder {
   width: 100%;
@@ -68,12 +81,6 @@ body {
 }
 
 
-.HRB {
-  height: 300px;
-  width: 100%;
-  padding-left: 30px;
-  margin-top: 0px;
-}
 
 .n1 {
   color: #00195b;
@@ -94,19 +101,16 @@ body {
   font-weight: 600;
 }
 
-li,
-a {
-  color: #000;
 
-}
 
 a:hover {
+
+  color: #0e377aec;
   opacity: 0.8;
- color: #0e377aec;
 }
 
 a:active {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 li,
