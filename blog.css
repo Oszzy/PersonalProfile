@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-
+  background-color: #EDF4F2;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
 
@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: white !important;
+  background-color: transparent !important;
   padding-bottom: 5px;
   bottom: 0;
 
@@ -68,7 +68,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: white;
+  background-color: transparent !important;
 
 
 
@@ -107,7 +107,8 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 80px;
-  background-color: #0e377aec;
+  background-color: #31473A;
+
   width: 100%;
   color: white;
   justify-content: center;
@@ -130,18 +131,19 @@ a {
 .Sidebar {
   min-width: 100px;
   min-height: 700px;
-  width: 175px;
+  width: 130px;
   font-family: 'Inter', sans-serif;
-  height: 1000px;
+  height: 100%;
   position: fixed;
   left: 0px;
   top: 0;
   contain: content;
   z-index: 3;
-  background-color: white !important;
+  background-color: white;
+  border-width: 10px;
 
   align-items: centers;
-  min-width: 130px;
+
 }
 
 .SidebarContainer {
@@ -154,22 +156,20 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   height: 130px;
-  margin-left: 20px;
-  width: 75%;
-  padding-left: 30px;
-
-
-}
-
-.K {
-  width: 120px;
   margin-left: 10px;
+  width: 75%;
+  padding-left: 10px;
+
   contain: content;
+  font-size: 10px;
 
 }
+
+.K {}
 
 .Ime {
-  width: 100px;
+  margin-top: 20px;
+  width: 80px;
   border-radius: 50%;
 }
 
@@ -177,11 +177,12 @@ a {
 .ImgBoarder {
   width: 75%;
   height: 100px;
-  padding-left: 5%;
-  color: black;
-  margin-top: 30px;
-  margin-left: 20px;
 
+  color: black;
+  margin-top: 15px;
+  margin-left: 10px;
+
+  contain: content;
 }
 
 .menu.png {
