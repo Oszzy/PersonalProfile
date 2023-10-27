@@ -25,6 +25,7 @@ body {
   min-width: 1300px;
   background-color: #EDF4F2;
   letter-spacing: 0.9px;
+  contain: content;
 }
 
 .Sidebar {
@@ -84,7 +85,6 @@ body {
   contain: content;
 }
 
-
 .menu.png {
   width: 52px;
   background-color: #009d71;
@@ -141,17 +141,19 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #31473A;
-  padding-left: 200px;
+
 }
 
 .Topcontent {
   display: flex !important;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   contain: content;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 200px;
+
+  width: 1300px;
+  contain: content;
+
 
 
 }
@@ -159,12 +161,13 @@ a {
 .HW {
   color: white;
   min-width: 400px !important;
+
   margin-left: 60px;
 
 }
 
 .tme {
-  padding-left: 300px;
+  padding-left: 180px;
 
 }
 
