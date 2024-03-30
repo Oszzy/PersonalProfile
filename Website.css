@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
@@ -221,9 +222,10 @@ a {
   max-width: 700px;
   margin-right: 90px;
   border-width: 10px;
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
   padding-top: 20px;
+ 
 
 }
 
@@ -298,9 +300,11 @@ a {
 .card {
   color: black;
   padding-top: 40px;
-  margin-bottom: 10px;
-  width: 700px;
-  height: 500px;
+contain: content;
+  width: 600px;
+ 
+  
+  height: 410px;
   background-color: white;
   box-shadow: rgba(216, 33, 33, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
@@ -383,4 +387,6 @@ a {
 
 .Welcome {
   letter-spacing: 0.8px;
+  margin-right: 100px;
+ 
 }
